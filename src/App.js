@@ -51,7 +51,7 @@ class App extends Component {
     });
   }
 
-  // Example of Post with a body. In general, external APIs will not allow you to post or put data on their servers. Therefore this will not work with swapi. Also notice the use of .catch, this allows us to see if something went wrong with the request.
+  // Example of Post with a body. In general, external APIs will not allow you to post or put data on their servers. Therefore this will not work with swapi. Also notice the use of .catch, this allows us to see if something went wrong with the request. Put and delete requests are done identically to the get and post examples provided. The only difference is the rest verb (get,put,post,delete) which is used within the axios call. Ex: axios.get   axios.put   axios.post   axios.delete
   postData() {
     // The body is an object containing the relevant data used as the second arguement to the axios request.
     axios
